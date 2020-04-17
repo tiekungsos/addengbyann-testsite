@@ -36,7 +36,7 @@ body {
 }
 .display-4 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.6rem;
@@ -1264,16 +1264,17 @@ body {
   color: #767676;
 }
 .cid-qB8OYDP8kC .navbar {
-  background: #efefef;
+  background:  #ffffffad;
   transition: none;
   min-height: 77px;
   padding: .5rem 0;
 }
 .cid-qB8OYDP8kC .navbar-dropdown.bg-color.transparent.opened {
-  background: #efefef;
+  background: #ffffffad;;
 }
 .cid-qB8OYDP8kC a {
   font-style: normal;
+  width: -webkit-fill-available;
 }
 .cid-qB8OYDP8kC .nav-item span {
   padding-right: 0.4em;
@@ -1286,6 +1287,7 @@ body {
 .cid-qB8OYDP8kC .nav-item a {
   padding: 0.7rem 0 !important;
   margin: 0rem .65rem !important;
+  text-transform: uppercase;
 }
 .cid-qB8OYDP8kC .btn {
   padding: 0.4rem 1.5rem;
