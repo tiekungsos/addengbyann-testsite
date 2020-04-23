@@ -655,7 +655,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         var obj2 = JSON.parse(obj);
  
         for (let index = 0; index < obj2.length; index++) {
-            var divEl = '<div class="news-slider__item swiper-slide"><a href="#" class="news__item"><div class="icon"> <i class="fa fa-quote-right"></i> </div><div class="table"><h4 class="card-table">COURSE : '+obj2[index]['a3']+'</h4><h5 class="context-table">หลังจากเรียนได้อะไร</h5><h5 class="card-description">" '+obj2[index]['a5']+' "</h5><h5 class="context-table">ฝากอะไรถึงครู</h5><h5 class="card-description">" '+obj2[index]['a6']+' "</h5> </div><div style="margin-top: 35px;"> <h4 style="font-weight: 800;">'+obj2[index]['a2']+'</h4></div> <div class="news__img"> <img src="'+obj2[index]['a9']+'" alt="news"> </div></a></div>';
+            var divEl = '<div class="news-slider__item swiper-slide"><a  class="news__item"><div class="icon"> <i class="fa fa-quote-right"></i> </div><div class="table"><h4 class="card-table">COURSE : '+obj2[index]['a3']+'</h4><h5 class="context-table">หลังจากเรียนได้อะไร</h5><h5 class="card-description">" '+obj2[index]['a5']+' "</h5><h5 class="context-table">ฝากอะไรถึงครู</h5><h5 class="card-description">" '+obj2[index]['a6']+' "</h5> </div><div style="margin-top: 35px;"> <h4 style="font-weight: 800;">'+obj2[index]['a2']+'</h4></div> <div class="news__img"> <img src="'+obj2[index]['a9']+'"> </div></a></div>';
             $(".slider-div").append(divEl);  
         }
 
