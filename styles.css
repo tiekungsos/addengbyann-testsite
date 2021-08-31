@@ -21,8 +21,9 @@
 .content-in {
     height: 550px;
     border-radius: 30px;
-    background-color: rgb(182, 217, 252, 0.5);
+    background-color: white;
     padding: 35px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 15px 40px 12px;
 }
 
 .number {
