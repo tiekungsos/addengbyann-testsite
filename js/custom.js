@@ -133,13 +133,13 @@ function mapData() {
             key = '0' + key
         }
 
-        var content = '<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 blogBox review-content"> <div class="content-in"> <div class="number">' + key + '</div>' +
+        var content = '<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 blogBox review-content"> <div class="content-in"> <div class="number">' + el.name + '</div>' +
             '<div class="header-course">' + el.course + '</div>' +
             '<div class="header">หลังจากเรียนได้อะไร</div>' +
             '<div class="content">" ' + el.study + ' "</div>' +
             '<div class="header">ฝากอะไรถึงครู</div>' +
             '<div class="content">" ' + el.say + '" </div>' +
-            '<div class="name">' + el.name + '</div></div></div>';
+            '</div></div>';
 
         $('#review-all .row').prepend(content);
     });
