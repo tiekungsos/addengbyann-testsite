@@ -110,8 +110,8 @@ $.ajax({
             if (key > 0) {
                 dataReview.push({
                     course: value[2],
-                    study: value[4],
-                    say: value[5],
+                    study: value[5],
+                    say: value[6],
                     name: value[1]
                 })
             }
