@@ -109,7 +109,7 @@ $.ajax({
         $.map(data, function(value, key) {
             if (key > 0) {
                 dataReview.push({
-                    course: value[2],
+                    course: value[3],
                     study: value[5],
                     say: value[6],
                     name: value[1]
