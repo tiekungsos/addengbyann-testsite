@@ -139,3 +139,16 @@
         font-weight: 600;
     }
 }
+
+@media (max-width: 380px) {
+    .header-list .part {
+        font-size: 16px;
+    }
+    .header-list .header-book {
+        font-size: 19px;
+    }
+    .product .header-book {
+        font-size: 18px;
+        margin-bottom: 1px;
+    }
+}
