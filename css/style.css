@@ -97,11 +97,45 @@
     font-weight: 400;
 }
 
+.product .header-book a {
+    width: max-content;
+    display: contents;
+}
+
+.header-list {
+    text-align: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.header-list .part {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header-list .header-book {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
 @media (max-width: 567px) {
     .product img {
         width: 100%;
     }
     .product .header-book {
-        font-size: 25px;
+        font-size: 21px;
+        margin-bottom: 1px;
+    }
+    .header-list {
+        text-align: left;
+        width: 100%;
+    }
+    .header-list .header-book {
+        font-size: 22px;
+        margin-bottom: 10px;
+        font-weight: 600;
     }
 }
