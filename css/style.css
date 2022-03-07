@@ -119,6 +119,7 @@
 .header-list .header-book {
     font-size: 30px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 @media (max-width: 567px) {
@@ -126,6 +127,7 @@
         width: 100%;
     }
     .product .header-book {
+        text-align: left;
         font-size: 21px;
         margin-bottom: 1px;
     }
