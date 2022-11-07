@@ -112,7 +112,8 @@ $.ajax({
                     course: value[3],
                     study: value[5],
                     say: value[6],
-                    name: value[1]
+                    name: value[1],
+                    subject: value[2],
                 })
             }
 
@@ -135,6 +136,8 @@ function mapData() {
 
         var content = '<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 blogBox review-content"> <div class="content-in"> <div class="number">' + el.name + '</div>' +
             '<div class="header-course">' + el.course + '</div>' +
+            '<div class="header">วิชาที่เรียน</div>' +
+            '<div class="content">" ' + el.subject + ' "</div>' +
             '<div class="header">หลังจากเรียนได้อะไร</div>' +
             '<div class="content">" ' + el.study + ' "</div>' +
             '<div class="header">ฝากอะไรถึงครู</div>' +
